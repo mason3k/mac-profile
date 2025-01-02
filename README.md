@@ -5,7 +5,7 @@ Mostly designed to get me up and running during machine changes. Mac-specific.
 
 ## Set-Up
 1. [Install posh-git](https://github.com/dahlbyk/posh-git?tab=readme-ov-file#installing-posh-git-via-powershellget-on-linux-macos-and-windows)
-1. [Install Oh my Posh](https://ohmyposh.dev/docs/installation)
+1. [Install Oh my Posh](https://ohmyposh.dev/)
 1. [Install Python](https://www.python.org/downloads/)
 1. [Install uv](https://docs.astral.sh/uv/getting-started/installation/)
 1. [Install direnv](https://direnv.net/docs/installation.html)

@@ -9,6 +9,7 @@ Mostly designed to get me up and running during machine changes. Mac-specific.
 1. [Install Python](https://www.python.org/downloads/)
 1. [Install uv](https://docs.astral.sh/uv/getting-started/installation/)
 1. [Install direnv](https://direnv.net/docs/installation.html)
+1. [Install mcfly](https://github.com/cantino/mcfly?tab=readme-ov-file#installation)
 1. `python -m pip install --user pipx`
 1. `pipx install dunk`
 1. `python -m pip install rich`
@@ -17,8 +18,6 @@ Mostly designed to get me up and running during machine changes. Mac-specific.
 - https://github.com/pypa/pipx
 - https://docs.astral.sh/uv/
 - https://github.com/darrenburns/dunk
-- https://github.com/PowerShell/PSReadLine
-- https://chocolatey.org/
 - https://ohmyposh.dev/
 - https://www.snakesonadomain.com/repl/rich/tools/dev-environment/2023/01/10/rich-repl.html
 - https://github.com/Textualize/rich

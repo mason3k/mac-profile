@@ -8,6 +8,7 @@ Mostly designed to get me up and running during machine changes. Mac-specific.
 1. [Install Oh my Posh](https://ohmyposh.dev/docs/installation)
 1. [Install Python](https://www.python.org/downloads/)
 1. [Install uv](https://docs.astral.sh/uv/getting-started/installation/)
+1. [Install direnv](https://direnv.net/docs/installation.html)
 1. `python -m pip install --user pipx`
 1. `pipx install dunk`
 1. `python -m pip install rich`

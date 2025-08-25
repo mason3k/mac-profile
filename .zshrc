@@ -118,6 +118,8 @@ bindkey -e
 
 eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/tokyonight_storm.omp.json)"
 
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 alias add="git diff | dunk | less -R -K && git add ."
 alias push="git diff @ @{upstream} | dunk | less -R -K && git push origin HEAD"
 

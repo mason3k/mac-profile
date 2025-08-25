@@ -11,7 +11,8 @@ Mostly designed to get me up and running during machine changes. Mac-specific.
 1. [Install direnv](https://direnv.net/docs/installation.html)
 1. [Install mcfly](https://github.com/cantino/mcfly?tab=readme-ov-file#installation)
 1. `brew install zsh-autosuggestions`
-1. `python -m pip install --user pipx`
+1. `uv python install`
+1. `python3 -m pip install --user pipx`
 1. `pipx install dunk`
 1. `python -m pip install rich`
 

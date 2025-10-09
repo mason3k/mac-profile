@@ -1,0 +1,3 @@
+alias ls="eza --icons=auto"
+alias add="git diff | dunk | less -R -K && git add ."
+alias push="git diff @ @{upstream} | dunk | less -R -K && git push origin HEAD"

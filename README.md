@@ -10,13 +10,12 @@ Mostly designed to get me up and running during machine changes. Mac-specific.
 1. [Install direnv](https://direnv.net/docs/installation.html)
 1. [Install mcfly](https://github.com/cantino/mcfly?tab=readme-ov-file#installation)
 1. `brew install zsh-autosuggestions`
+1. `brew install eza`
 1. `uv python install`
-1. `python3 -m pip install --user pipx`
-1. `pipx install dunk`
-1. `python -m pip install rich`
+1. `uv tool install dunk`
+1. `uv pip install --system rich`
 
 ## References (and Thanks)
-- https://github.com/pypa/pipx
 - https://docs.astral.sh/uv/
 - https://github.com/darrenburns/dunk
 - https://ohmyposh.dev/

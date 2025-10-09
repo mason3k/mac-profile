@@ -102,8 +102,6 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(mcfly init zsh)"
 
-# Created by `pipx` on 2022-11-23 21:21:58
-export PATH="$PATH:/Users/sjones/.local/bin"
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 chruby ruby-3.1.3
@@ -113,6 +111,7 @@ eval "$(pyenv init -)"
 
 export PIP_REQUIRE_VIRTUALENV=true
 export PYTHONSTARTUP=~/.pythonrc
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
 bindkey -e
 

@@ -120,9 +120,8 @@ eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/tokyonig
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-alias add="git diff | dunk | less -R -K && git add ."
-alias push="git diff @ @{upstream} | dunk | less -R -K && git push origin HEAD"
-
 bindkey -e
 
 eval "$(direnv hook zsh)"
+
+source .aliases

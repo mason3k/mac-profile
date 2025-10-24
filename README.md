@@ -11,6 +11,7 @@ Mostly designed to get me up and running during machine changes. Mac-specific.
 1. [Install mcfly](https://github.com/cantino/mcfly?tab=readme-ov-file#installation)
 1. `brew install zsh-autosuggestions`
 1. `brew install eza`
+1. `brew install zoxide`
 1. `uv python install`
 1. `uv tool install dunk`
 1. `uv pip install --system rich`

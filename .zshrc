@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(mcfly init zsh)"
 
-[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+[[ -r "$HOMEBREW_PREFIX/etc/profile.d/bash_completion.sh" ]] && . "$HOMEBREW_PREFIX/etc/profile.d/bash_completion.sh"
 
 export PIP_REQUIRE_VIRTUALENV=true
 export PYTHONSTARTUP=~/.pythonrc

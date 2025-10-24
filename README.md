@@ -3,7 +3,7 @@ Personal setup for new macOS machine
 
 Mostly designed to get me up and running during machine changes. Mac-specific.
 
-## set-sp
+## set-up
 1. [Install posh-git](https://github.com/dahlbyk/posh-git?tab=readme-ov-file#installing-posh-git-via-powershellget-on-linux-macos-and-windows)
 1. [Install Oh my Posh](https://ohmyposh.dev/)
 1. [Install uv](https://docs.astral.sh/uv/getting-started/installation/)

@@ -102,18 +102,11 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(mcfly init zsh)"
 
-source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby ruby-3.1.3
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
 export PIP_REQUIRE_VIRTUALENV=true
 export PYTHONSTARTUP=~/.pythonrc
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
-
-bindkey -e
 
 eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/tokyonight_storm.omp.json)"
 
@@ -122,5 +115,6 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey -e
 
 eval "$(direnv hook zsh)"
+eval "$(zoxide init zsh)"
 
 source .aliases

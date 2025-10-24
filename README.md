@@ -4,11 +4,12 @@ Personal setup for new macOS machine
 Mostly designed to get me up and running during machine changes. Mac-specific.
 
 ## set-up
-1. [Install posh-git](https://github.com/dahlbyk/posh-git?tab=readme-ov-file#installing-posh-git-via-powershellget-on-linux-macos-and-windows)
-1. [Install Oh my Posh](https://ohmyposh.dev/)
-1. [Install uv](https://docs.astral.sh/uv/getting-started/installation/)
-1. [Install direnv](https://direnv.net/docs/installation.html)
-1. [Install mcfly](https://github.com/cantino/mcfly?tab=readme-ov-file#installation)
+1. [install Homebrew](https://brew.sh/)
+1. [install posh-git](https://github.com/dahlbyk/posh-git?tab=readme-ov-file#installing-posh-git-via-powershellget-on-linux-macos-and-windows)
+1. [install Oh my Posh](https://ohmyposh.dev/)
+1. [install uv](https://docs.astral.sh/uv/getting-started/installation/)
+1. [install direnv](https://direnv.net/docs/installation.html)
+1. [install mcfly](https://github.com/cantino/mcfly?tab=readme-ov-file#installation)
 1. `brew install zsh-autosuggestions`
 1. `brew install eza`
 1. `brew install zoxide`

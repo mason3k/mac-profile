@@ -18,6 +18,12 @@ Mostly designed to get me up and running during machine changes. Mac-specific.
 1. `uv tool install dunk`
 1. `uv pip install --system rich`
 
+## preferred ohmyposh themes
+ - amro
+ - kushal
+ - negligible
+ - tokyonight_storm
+
 ## references/thanks
 - https://frankwiles.com/posts/my-cli-world/
 - https://docs.astral.sh/uv/

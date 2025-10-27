@@ -1,0 +1,35 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+# NOTE: to change install location update the directory PRE_COMMIT_HOME environment variable
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+      - id: check-yaml
+      - id: trailing-whitespace
+      - id: requirements-txt-fixer
+      - id: check-merge-conflict
+      - id: pretty-format-json
+      - id: check-ast
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.16.0
+    hooks:
+      - id: pyupgrade
+        args: [--py39-plus]
+  - repo: https://github.com/hadialqattan/pycln
+    rev: v2.5.0 # Possible releases: https://github.com/hadialqattan/pycln/releases
+    hooks:
+      - id: pycln
+        args: [--config=pyproject.toml, -ee, __init__]
+  - repo: https://github.com/psf/black-pre-commit-mirror
+    rev: 25.9.0
+    hooks:
+      - id: black
+        # unstable used to get hug_parens_with_braces_and_square_brackets feature
+        args: [--config=./pyproject.toml, -l 120, -S, --unstable]
+        language_version: python3.9
+  - repo: https://github.com/sourcery-ai/sourcery
+    rev: v1.21.0
+    hooks:
+      - id: sourcery
+        args: [--diff=git diff HEAD, --no-summary, --fix]

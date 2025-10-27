@@ -15,6 +15,8 @@ Mostly designed to get me up and running during machine changes. Mac-specific.
 1. `brew install zoxide`
 1. `brew install fzf`
 1. `brew install bash-completion@2`
+1. `brew install prek`
+1. `prek install`
 1. `uv python install`
 1. `uv tool install dunk`
 1. `uv pip install --system rich`
